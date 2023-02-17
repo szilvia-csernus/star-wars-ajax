@@ -53,7 +53,7 @@ function writeToDocument(url) {
 			});
 			tableRows.push(`<tr>${dataRow}</tr>`);
 		});
-
-		el.innerHTML = `<table>${tableHeaders}${tableRows}</table>${pagination}`;
+        // The REGEX at the end replaces trailing commas with empty strings.
+		el.innerHTML = `<table>${tableHeaders}${tableRows}</table>${pagination}`.replace(/,/g,"");
 	});
 }

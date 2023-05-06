@@ -1,4 +1,4 @@
-This small app showcases how to fetch data froma public API with pagination.
+This small app shows how to fetch data froma public API with pagination.
 It uses two approaches: one builds the table modularly, the other one mainly uses innerHTML text.
 Data fetching happens with XMLHttpRequest().
 
